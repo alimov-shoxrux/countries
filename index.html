@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;300&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,500;0,6..12,800;1,6..12,700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./style.css">
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container header-container">
+            <a class="logo" href="index.html">
+                <h1 class="header-logo">Where in the world?</h1>
+            </a>
+
+            <h3 class="header-h3">shoxrux ®</h3>
+        </div>
+    </header>
+
+    <!-- input -->
+
+    <div class="main-container container">
+        <div class="input-wrapper">
+            <input class="input" type="search" class="search" placeholder="Search for a country…">
+            <img class="search-icon" src="./img/search.svg" alt="search">
+        </div>
+
+
+        <!-- select -->
+        <div class="select-container container">
+            <select class="select">
+                <option selected disabled>Filter by Region</option>
+                <option value="afr">Africa</option>
+                <option value="usa">America</option>
+                <option value="asia">Asia </option>
+                <option value="eur">Europe</option>
+                <option value="oce">Ocenia</option>
+
+            </select>
+        </div>
+    </div>
+
+    <!-- grid -->
+    <div class="grid-container container">
+        <ul class="country-list">
+        </ul>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
